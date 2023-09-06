@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK5 css</title>
+    <style>
+        html{
+            color: rgb(122, 15, 122);
+            background-color: rgb(210, 223, 65);
+        }
+        body{
+            padding-left:50%;
+        }
+        p,address{
+            font-size:17px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            top:0%;
+            
+
+            
+        }
+        .navigation {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        width: 144px;
+        list-style-type: none;
+        padding: 0;
+        margin: 0; 
+        }
+        hr{
+            background-color: rgb(243, 192, 192);
+            border-top: thin dotted purple;
+        }
+        #hp {
+            top: 20px;
+            background-color: #f6f3f2;
+            padding: 10px 10px;
+        }
+        #nav a:visited{
+            color:purple;
+        }
+       
+
+        #nav a:hover {
+            left:0;
+            background-color: rgb(240, 239, 239); 
+            color: blue ;
+            text-align:left;
+            border-right: 1em solid black ;
+            border-radius: 0%;
+             
+        }
+        #m{
+            top: 80px;
+            background-color: #f6f3f2;
+            padding: 10px 10px;
+        }
+        #mt {
+            top: 140px;
+            background-color: #f6f3f2;
+            padding: 10px 10px;
+        }
+        #l{
+            top: 200px;
+            background-color: #f6f3f2;
+            padding: 10px 10px;
+        }
+        .hd a {
+            text-decoration: none; 
+            position: absolute;
+            left: -80px; 
+            transition: 0.3s;
+
+            width: 110px; 
+            
+            font-size: 18px;
+            color: white; 
+            border-radius: 0px 0px ;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="nav" class="navigation">
+        <ul type="none" class="hd">
+            <li><a href="#" class="" id="hp">Home page</a></li>
+            <li><a href="#" class="" id="m">Musings</a></li>
+            <li><a href="#" class="" id="mt">My town</a></li>
+            <li><a href="#" class="" id="l">Links</a></li>
+        </ul>
+    </div>
+   
+    <h1>My first styled page</h1>
+    
+    <p>Welcome to my styled page!</p>
+    <p>It lacks images, but at least it has style.
+        And it<br> has links, even if they don't go
+        anywhere...</p>
+    <p>There should be more here, but I don't know
+        <br>what yet.</p>
+
+    <div class="address">
+        <hr>
+        <address>Made 5 April 2004 <br> by myself.</address>
+        
+    </div>
+    
+</body>
+</html>

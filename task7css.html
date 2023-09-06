@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK7 CSS</title>
+    <style>
+        input,select,textarea{
+            padding: 5px 5px;
+            
+        }
+        .c1{
+            background-color: rgb(199, 52, 99);
+            display:flex;
+            justify-content: center;
+            max-width:500px;
+            max-height: 700px;
+            padding: 30px 40px;
+            
+        }
+        .c2{
+            background-color: rgb(114, 17, 48) ;
+            display:flex;
+            justify-content: center;
+            padding :40px;
+        }
+        label,td{
+            color:white;
+            font-family:'Times New Roman', Times, serif;
+        }
+        td{
+            padding:2px;
+        
+        }
+        .button {
+            width: 100%;
+            cursor: pointer;
+            background-color: #f5f7f6;
+            color: black;
+            font-weight:600;
+            padding: 10px ;
+            margin:10px 0;
+            border:none;
+            font-size:large;
+            border-radius: 7px;
+        }
+        .button:hover {
+            opacity: 0.3;
+            background-color: #79837c;
+
+        }
+
+    </style>
+</head>
+<body>
+    <form class="c1">
+        <table class="c2">
+            <tr>
+                <td>
+                    <label>Name:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="your name" />
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label>Email:</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="your email" />
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label>Password:</label>
+                </td>
+                <td>
+                    <input type="password" />
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label>Phone Number:</label>
+                </td>
+                <td>
+                    <input type="number"/>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+                <td>
+                    Male: <input type="radio" name="gen" value="male">
+                    Female: <input type="radio" name="gen" value="female">
+                    Other: <input type="radio" name="gen" value="other">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label>language</label>
+                </td>
+                <td>
+                  <select>
+                    <option value="">Select language</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <label>Zip Code:</label>
+                </td>
+                <td>
+                    <input type="number" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                    <label>About:</label>
+                </td>
+                <td>
+                    <textarea placeholder="Write about yourself..."></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                    <input type="submit" class="button" value="Register"/>
+                </td>
+              </tr>
+            
+
+        </table>
+    </form>
+    
+</body>
+</html>

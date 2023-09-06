@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK4 CSS</title>
+    <style>
+        p,h1{
+            text-align:center;
+        }
+        .navigation {
+        position: fixed;
+        top: 16px;
+        left: 16px;
+        width: 144px;
+
+        padding: 0;
+        margin: 0; 
+        }
+        #hp {
+            top: 20px;
+            background-color: #5be775;
+            padding: 10px 10px;
+        }
+
+       
+
+        #nav a:hover {
+            left:0;
+            background-color: rgba(230, 215, 215, 0.799); 
+
+            border-radius: 5%;
+             
+        }
+        #m{
+            top: 80px;
+            background-color: #59a2eb;
+            padding: 10px 10px;
+        }
+        #mt {
+            top: 140px;
+            background-color: #e33e07;
+            padding: 10px 10px;
+        }
+        #l{
+            top: 200px;
+            background-color: #a5a09f;
+            padding: 10px 10px;
+        }
+        .hd a {
+            position: fixed;
+            left: -80px; 
+            transition: 0.5s;
+
+            width: 110px; 
+            
+            font-size: 18px;
+            color: white; 
+            border-radius: 5px 5px ;
+            height:20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Custom Sidebar</h1>
+    <p>Hover over the buttons on the left side to open them</p>
+    <div id="nav" class="navigation">
+        <ul type="none" class="hd">
+            <li><a href="#" class="" id="hp"></a></li>
+            <li><a href="#" class="" id="m"></a></li>
+            <li><a href="#" class="" id="mt"></a></li>
+            <li><a href="#" class="" id="l"></a></li>
+        </ul>
+    </div>
+</body>
+</html>

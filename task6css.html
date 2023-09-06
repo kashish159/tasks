@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TASK6 CSS</title>
+  <style>
+        
+      form {
+        border: 3px solid #e5e1e1;
+        max-width:350px;
+      }
+      button {
+        width: 100%;
+        cursor: pointer;
+        background-color: #38c983;
+        color: white;
+        padding: 10px ;
+        margin:10px 0;
+        
+      }
+      button:hover {
+        opacity: 0.5;
+      }
+
+      .btn {
+        width: auto;
+        background-color: #f44336;
+      }
+      
+      input[type=text] {
+        width: 100%;
+        padding: 10px ;
+        
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      input[type=password]
+      {
+        width: 100%;
+        padding: 10px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      span.forgot {
+        float: right;
+        padding-top: 16px;
+      }
+
+      .imge {
+        margin: 12px 12px ;
+        text-align: center;
+        
+      }
+
+      
+      img.user {
+        width: 50%;
+        border-radius: 80px;
+      }
+
+
+      .fill {
+        padding: 16px;
+      }
+
+      
+ </style>
+</head>
+<body>
+  
+</body>
+</html>
+<form >
+    <div class="imge">
+      <img src="images.png" alt="user profile" class="user">
+    </div>
+  
+    <div class="fill">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" required>
+  
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" required>
+  
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  
+    <div class="fill" style="background-color:#f1f1f1">
+      <button type="button" class="btn">Cancel</button>
+      <span class="forgot">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>

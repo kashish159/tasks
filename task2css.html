@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK2 CSS AUG31</title>
+    <style>
+            tr,td{
+                color:blue;
+                font-size:18px;
+            }
+            caption{
+                font-weight: 900;
+                font-size:18px;
+            }
+            .c1 {
+                background-color: lightblue;
+            }
+            .c2 {
+                background-color: rgb(161, 162, 162);
+                border-width: 0;
+                border-color:antiquewhite
+            }
+            .c1 td:hover{
+                    background: rgb(205, 182, 50);
+                    transition: 0.4s;
+                
+            }
+            .c2 td:hover{
+                    background: rgb(101, 100, 97);
+                    transition: 0.4s;
+                
+            }
+            td{
+                padding: 10px;
+            }
+    </style>
+</head>
+<body>
+    <table class="c1">
+        <caption style="white-space: nowrap; overflow: hidden;">Vertical Navigation bar</caption>
+        <br>
+        <tr>
+            <td>Home</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+        </tr>
+    </table >
+    <br><br><br><br><br>
+    <table class="c2" border="1" >
+        <caption style="white-space:nowrap;overflow:hidden">Horizontal Navigation bar</caption>
+        <br>
+        <tr>
+            <td>Home </td>
+            <td>Java</td>
+            <td>CSS</td>
+            <td>HTML</td>
+        </tr>
+
+    </table>
+</body>
+</html>
